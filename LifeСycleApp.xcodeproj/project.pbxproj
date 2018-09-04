@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		924314F4213DD9DE004D7C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924314F3213DD9DE004D7C08 /* AppDelegate.swift */; };
-		924314F6213DD9DE004D7C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924314F5213DD9DE004D7C08 /* ViewController.swift */; };
+		924314F6213DD9DE004D7C08 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924314F5213DD9DE004D7C08 /* ViewControllerOne.swift */; };
 		924314F9213DD9DE004D7C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924314F7213DD9DE004D7C08 /* Main.storyboard */; };
 		924314FB213DD9DE004D7C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924314FA213DD9DE004D7C08 /* Assets.xcassets */; };
 		924314FE213DD9DE004D7C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924314FC213DD9DE004D7C08 /* LaunchScreen.storyboard */; };
+		92431506213DDAC9004D7C08 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92431505213DDAC9004D7C08 /* ViewControllerTwo.swift */; };
+		92431508213DDAE2004D7C08 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92431507213DDAE2004D7C08 /* ViewControllerThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		924314F0213DD9DE004D7C08 /* LifeСycleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LifeСycleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		924314F3213DD9DE004D7C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		924314F5213DD9DE004D7C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		924314F5213DD9DE004D7C08 /* ViewControllerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
 		924314F8213DD9DE004D7C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		924314FA213DD9DE004D7C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		924314FD213DD9DE004D7C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		924314FF213DD9DE004D7C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92431505213DDAC9004D7C08 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		92431507213DDAE2004D7C08 /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				924314F3213DD9DE004D7C08 /* AppDelegate.swift */,
-				924314F5213DD9DE004D7C08 /* ViewController.swift */,
+				924314F5213DD9DE004D7C08 /* ViewControllerOne.swift */,
+				92431505213DDAC9004D7C08 /* ViewControllerTwo.swift */,
+				92431507213DDAE2004D7C08 /* ViewControllerThree.swift */,
 				924314F7213DD9DE004D7C08 /* Main.storyboard */,
 				924314FA213DD9DE004D7C08 /* Assets.xcassets */,
 				924314FC213DD9DE004D7C08 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924314F6213DD9DE004D7C08 /* ViewController.swift in Sources */,
+				924314F6213DD9DE004D7C08 /* ViewControllerOne.swift in Sources */,
 				924314F4213DD9DE004D7C08 /* AppDelegate.swift in Sources */,
+				92431506213DDAC9004D7C08 /* ViewControllerTwo.swift in Sources */,
+				92431508213DDAE2004D7C08 /* ViewControllerThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
